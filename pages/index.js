@@ -47,7 +47,7 @@ const submit=()=>{
            
             <li className='text-white md:justify-start font-normal md:text-xs text-sm '>92739239843</li>
            
-            <li className='md:ml-[35%]' ><button  class="h-[90%] md:h-[50%] w-32 md:w-auto bg-transparent hover:bg-yellow-300 text-yellow-300 font-semibold hover:text-black py-2 px-4 border border-yellow-300 hover:border-transparent rounded">
+            <li className='md:ml-[35%]' ><button  className="h-[90%] md:h-[50%] w-32 md:w-auto bg-transparent hover:bg-yellow-300 text-yellow-300 font-semibold hover:text-black py-2 px-4 border border-yellow-300 hover:border-transparent rounded">
              Login
             </button></li>
       </ul>
@@ -68,8 +68,8 @@ const submit=()=>{
 
     
           <div className='dm:hidden flex items-center justify-center w-[30%]'>  
-            <button onClick={menuClick} className=' bg-black w-10 h-10 rounded-lg justify-center flex item-center'>          <svg className="block self-center h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="white" aria-hidden="true">
-              <path stroke-linecap="round" stroke-LineJoin="round" d="M4 6h16M4 12h16M4 18h16" />
+            <button onClick={menuClick} className=' bg-black w-10 h-10 rounded-lg justify-center flex item-center'>          <svg className="block self-center h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="white" aria-hidden="true">
+              <path strokeLinecap="round" strokeLineJoin="round" d="M4 6h16M4 12h16M4 18h16" />
             </svg>
 </button>
                   
